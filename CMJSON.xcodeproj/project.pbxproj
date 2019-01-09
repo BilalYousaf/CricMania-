@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931D3FBF1FE7FB6E000C986D /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931D3FBE1FE7FB6E000C986D /* Live.swift */; };
+		9366A7AA1FFE5471007FE171 /* FIxToWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366A7A91FFE5471007FE171 /* FIxToWatchViewController.swift */; };
+		9366A7AD1FFE551B007FE171 /* CoreApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9366A7AB1FFE551B007FE171 /* CoreApp.xcdatamodeld */; };
+		9366A7F41FFE869A007FE171 /* jknTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366A7F31FFE869A007FE171 /* jknTableViewController.swift */; };
 		939BD7971FD83E91000E2F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7961FD83E91000E2F29 /* AppDelegate.swift */; };
 		939BD7991FD83E91000E2F29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7981FD83E91000E2F29 /* ViewController.swift */; };
 		939BD79C1FD83E91000E2F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939BD79A1FD83E91000E2F29 /* Main.storyboard */; };
@@ -14,6 +18,12 @@
 		939BD7A11FD83E91000E2F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939BD79F1FD83E91000E2F29 /* LaunchScreen.storyboard */; };
 		939BD7AC1FD83E91000E2F29 /* CMJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7AB1FD83E91000E2F29 /* CMJSONTests.swift */; };
 		939BD7B71FD83E91000E2F29 /* CMJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7B61FD83E91000E2F29 /* CMJSONUITests.swift */; };
+		939BD7C51FD84681000E2F29 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7C41FD84681000E2F29 /* ArticleCell.swift */; };
+		939BD7C71FD84881000E2F29 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BD7C61FD84881000E2F29 /* Article.swift */; };
+		93A45F301FFD2E8C0004193E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A45F2F1FFD2E8C0004193E /* NotificationViewController.swift */; };
+		93A9DC691FE2981C00587A3E /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A9DC681FE2981C00587A3E /* WebviewViewController.swift */; };
+		93EB6E601FFBCB73004949DD /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB6E5F1FFBCB73004949DD /* CalenderViewController.swift */; };
+		93EB6E621FFBCBAA004949DD /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB6E611FFBCBAA004949DD /* CalenderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		931D3FBE1FE7FB6E000C986D /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		9366A7A91FFE5471007FE171 /* FIxToWatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIxToWatchViewController.swift; sourceTree = "<group>"; };
+		9366A7AC1FFE551B007FE171 /* CoreApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreApp.xcdatamodel; sourceTree = "<group>"; };
+		9366A7F31FFE869A007FE171 /* jknTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jknTableViewController.swift; sourceTree = "<group>"; };
 		939BD7931FD83E91000E2F29 /* CMJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BD7961FD83E91000E2F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939BD7981FD83E91000E2F29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		939BD7B21FD83E91000E2F29 /* CMJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BD7B61FD83E91000E2F29 /* CMJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJSONUITests.swift; sourceTree = "<group>"; };
 		939BD7B81FD83E91000E2F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939BD7C41FD84681000E2F29 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		939BD7C61FD84881000E2F29 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		93A45F2F1FFD2E8C0004193E /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		93A9DC681FE2981C00587A3E /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
+		93EB6E5F1FFBCB73004949DD /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		93EB6E611FFBCBAA004949DD /* CalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,22 @@
 		939BD7951FD83E91000E2F29 /* CMJSON */ = {
 			isa = PBXGroup;
 			children = (
+				93A45F2F1FFD2E8C0004193E /* NotificationViewController.swift */,
 				939BD7961FD83E91000E2F29 /* AppDelegate.swift */,
+				93EB6E5F1FFBCB73004949DD /* CalenderViewController.swift */,
 				939BD7981FD83E91000E2F29 /* ViewController.swift */,
+				9366A7A91FFE5471007FE171 /* FIxToWatchViewController.swift */,
 				939BD79A1FD83E91000E2F29 /* Main.storyboard */,
 				939BD79D1FD83E91000E2F29 /* Assets.xcassets */,
 				939BD79F1FD83E91000E2F29 /* LaunchScreen.storyboard */,
 				939BD7A21FD83E91000E2F29 /* Info.plist */,
+				939BD7C41FD84681000E2F29 /* ArticleCell.swift */,
+				939BD7C61FD84881000E2F29 /* Article.swift */,
+				93A9DC681FE2981C00587A3E /* WebviewViewController.swift */,
+				931D3FBE1FE7FB6E000C986D /* Live.swift */,
+				93EB6E611FFBCBAA004949DD /* CalenderCell.swift */,
+				9366A7AB1FFE551B007FE171 /* CoreApp.xcdatamodeld */,
+				9366A7F31FFE869A007FE171 /* jknTableViewController.swift */,
 			);
 			path = CMJSON;
 			sourceTree = "<group>";
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EB6E601FFBCB73004949DD /* CalenderViewController.swift in Sources */,
+				9366A7AD1FFE551B007FE171 /* CoreApp.xcdatamodeld in Sources */,
+				9366A7AA1FFE5471007FE171 /* FIxToWatchViewController.swift in Sources */,
+				939BD7C71FD84881000E2F29 /* Article.swift in Sources */,
+				93A9DC691FE2981C00587A3E /* WebviewViewController.swift in Sources */,
 				939BD7991FD83E91000E2F29 /* ViewController.swift in Sources */,
 				939BD7971FD83E91000E2F29 /* AppDelegate.swift in Sources */,
+				93A45F301FFD2E8C0004193E /* NotificationViewController.swift in Sources */,
+				93EB6E621FFBCBAA004949DD /* CalenderCell.swift in Sources */,
+				9366A7F41FFE869A007FE171 /* jknTableViewController.swift in Sources */,
+				931D3FBF1FE7FB6E000C986D /* Live.swift in Sources */,
+				939BD7C51FD84681000E2F29 /* ArticleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +545,7 @@
 				939BD7BD1FD83E91000E2F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939BD7BE1FD83E91000E2F29 /* Build configuration list for PBXNativeTarget "CMJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +554,7 @@
 				939BD7C01FD83E91000E2F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939BD7C11FD83E91000E2F29 /* Build configuration list for PBXNativeTarget "CMJSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,8 +563,22 @@
 				939BD7C31FD83E91000E2F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9366A7AB1FFE551B007FE171 /* CoreApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9366A7AC1FFE551B007FE171 /* CoreApp.xcdatamodel */,
+			);
+			currentVersion = 9366A7AC1FFE551B007FE171 /* CoreApp.xcdatamodel */;
+			path = CoreApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 939BD78B1FD83E91000E2F29 /* Project object */;
 }
